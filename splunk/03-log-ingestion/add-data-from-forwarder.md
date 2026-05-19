@@ -1,7 +1,8 @@
 # Add Data from Forwarder
 
 ## Objective
-Configure Splunk to receive and ingest Windows Event Logs from a Splunk Universal Forwarder.
+
+Add Windows Event Logs to Splunk using a Splunk Universal Forwarder.
 
 ## Workflow
 

@@ -23,21 +23,27 @@ Verified endpoint connectivity to the Splunk indexer on port 9997.
 ### PowerShell Command
 
 ```powershell
-Test-NetConnection -Computername Splunk_IP -port 9997
+Test-NetConnection -ComputerName 127.0.0.1 -Port 9997
 ```
 
 ---
 
 ## Splunk Verification
 
-Verified the endpoint appeared in:
-- Splunk Forwarder Management
-- Connected forwarder list
-- Active forwarder status
+Verified forwarder communication and Windows Event Log ingestion within Splunk Search & Reporting.
 
-Navigation Path:
-```text
-Settings > Forwarder Management
+### Example Searches Used
+
+Verified forwarder communication:
+
+```spl
+index=_internal component=TcpOutputProc
+```
+
+Verified Windows Event Log ingestion:
+
+```spl
+source="WinEventLog:*"
 ```
 
 ---
@@ -50,13 +56,18 @@ If the forwarder does not appear:
 - Confirm receiving indexer IP address
 - Check firewall configuration
 
+Resolved ingestion issues caused by:
+- incorrect Windows file extension (`inputs.conf.txt`)
+- missing `inputs.conf` configuration
+- Windows hidden file extensions
+
 ---
 
 ## Notes
 
 Successful verification confirmed:
 - Universal Forwarder installation
-- Network communication
+- TCP communication over port 9997
 - Centralized log forwarding functionality
 
 ## References

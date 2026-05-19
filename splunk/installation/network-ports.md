@@ -1,5 +1,7 @@
 # Splunk Network Ports
 
+## Common Splunk Ports
+
 | Port | Purpose |
 |---|---|
 | 8000 | Splunk web interface |
@@ -7,4 +9,7 @@
 | 8089 | splunkd management communication |
 
 ## Notes
-Reviewed required network ports for Splunk communication and forwarder connectivity.
+Reviewed required Splunk network ports for web access, forwarder communication, and management traffic during deployment planning.
+
+## References
+- [Splunk Default Ports Reference](https://kinneygroup.com/blog/splunk-default-ports/)

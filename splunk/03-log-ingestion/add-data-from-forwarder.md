@@ -6,7 +6,7 @@ Add Windows Event Logs to Splunk using a Splunk Universal Forwarder.
 
 ---
 
-### Add Data Workflow
+## Add Data Workflow
 
 ### Open Add Data
 

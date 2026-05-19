@@ -6,10 +6,10 @@
 |---|---|
 | 8000 | Splunk web interface |
 | 9997 | Forwarder data ingestion |
-| 8089 | splunkd management communication |
+| 8089 | Splunk management and API communication |
 
 ## Notes
-Reviewed required Splunk network ports for web access, forwarder communication, and management traffic during deployment planning.
+Reviewed common Splunk network ports used for web access, Universal Forwarder ingestion, and management communication within a local lab environment.
 
 ## Splunk Network Ports Diagram
 

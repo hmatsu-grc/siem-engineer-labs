@@ -1,15 +1,15 @@
 # Universal Forwarders
 
-This folder contains Splunk Universal Forwarder deployment exercises, verification workflows, and Windows log forwarding configurations performed within a simulated SOC environment.
+This folder contains Splunk Universal Forwarder deployment exercises, verification workflows, and Windows log forwarding configurations performed within a local SOC lab environment.
 
 Topics Covered:
-- Universal Forwarder installation
-- On-premises Splunk configuration
-- Forwarder verification
-- Connectivity testing
+- Splunk Universal Forwarder installation
+- Local Splunk Enterprise integration
+- Forwarder verification and troubleshooting
+- Port 9997 connectivity testing
 - Windows Event Log forwarding
 - Indexer communication
-- Service monitoring
+- Splunk service monitoring
 - Centralized log collection
 
 Contents:

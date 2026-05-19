@@ -4,7 +4,7 @@
 Install and configure Splunk Universal Forwarder on a Windows endpoint for centralized log collection.
 
 ## Environment
-- Windows 10
+- Windows 11
 - Splunk Universal Forwarder 9.0.0.1
 - Splunk Enterprise
 

@@ -16,20 +16,7 @@ Navigated to:
 Settings → Add Data
 ```
 
-Selected:
-
-```text
-Forward
-```
-
----
-
-### Configure the Host
-
-1. Added the computer to the selected hosts list
-2. Assigned a Server Class Name
-3. Clicked Next
-
+Selected local data forwarding configuration.
 
 ---
 
@@ -43,19 +30,18 @@ Forward
 
 ### Configure the Index
 
-Configured destination index for incoming logs.
-
-Created custom index:
-
+Configured forwarding target:
 ```text
-WinLog_clients
+127.0.0.1:9997
 ```
 
-Steps performed:
-1. Clicked Create New Index
-2. Named the index 'WinLog_clients'
-3. Clicked Review
-4. Clicked Submit
+Configured destination index for incoming logs.
+
+Used default Splunk index:
+
+```text
+main
+```
 
 After submission, selected:
 
@@ -73,10 +59,10 @@ Navigated to:
 Settings → Indexes
 ```
 
-Searched for index created previously:
+Verified forwarded Windows Event Logs were ingesting into:
 
 ```text
-WinLog_clients
+main
 ```
 
 Initially, no incoming events were visible because the receiving port had not yet been configured.
@@ -97,7 +83,7 @@ Added new receiving port:
 9997
 ```
 
-This port allows Splunk Universal Forwarders to send event data to the Splunk indexer.
+Configured Splunk Enterprise to receive forwarded event data from the local Universal Forwarder on port 9997.
 
 ---
 
@@ -109,7 +95,19 @@ After configuring the receiving port:
 - Verified event visibility using Search & Reporting
 - Performed a basic event search to confirm successful log forwarding
 
+Verified forwarder communication using:
 
+```spl
+index=_internal component=TcpOutputProc
+```
+
+Verified Windows Event Log ingestion using:
+
+```spl
+source="WinEventLog:*"
+```
+
+---
 
 ## Data Sources
 
@@ -122,9 +120,12 @@ Configured collection for:
 
 ## Notes
 
-Created a custom index named:
-```text
-WinLog_clients
-```
+Configured forwarded Windows Event Logs to ingest into the `main` index using a local Universal Forwarder to Splunk Enterprise connection.
 
 Verified incoming events after receiver configuration.
+
+---
+
+## References
+
+- https://docs.splunk.com/Documentation/Forwarder

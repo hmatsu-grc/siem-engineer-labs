@@ -35,9 +35,10 @@ Upload
 
 ### Configure Host and Index
 
-1. Selected host field value if required
+1. Selected host field value (if required)
 2. Selected destination index
-3. Continued through the remaining configuration steps
+3. Reviewed upload configuration
+4. Completed the process and started searching
 
 ---
 

@@ -1,28 +1,57 @@
 # Add Data from Uploaded Logs
 
 ## Objective
-Upload and ingest log files directly into Splunk for analysis.
 
-## Workflow
+Upload and analyze log files in Splunk.
 
-1. Navigated to:
+---
+
+## Upload Workflow
+
+### Open Add Data
+
+Navigated to:
+
 ```text
-Settings > Add Data
+Settings → Add Data
 ```
 
-2. Selected:
+Selected:
+
 ```text
 Upload
 ```
 
-3. Uploaded log file
-4. Reviewed event parsing configuration
-5. Assigned host field and index settings
-6. Completed ingestion workflow
-7. Verified searchable event data
+---
+
+### Upload Log File
+
+1. Selected the log file for upload
+2. Clicked Next
+3. Reviewed how Splunk parsed the uploaded data
+4. Continued if parsing configuration appeared correct
+
+---
+
+### Configure Host and Index
+
+1. Selected host field value if required
+2. Selected destination index
+3. Continued through the remaining configuration steps
+
+---
+
+## Verification
+
+Verified:
+- Uploaded log data became searchable
+- Events appeared within Splunk Search & Reporting
+- Uploaded logs were indexed successfully
+
+Performed a basic search to confirm event visibility.
 
 ---
 
 ## Notes
 
-Uploaded logs were successfully indexed and searchable within Splunk Search & Reporting.
+Splunk automatically parsed uploaded log data prior to indexing and analysis.

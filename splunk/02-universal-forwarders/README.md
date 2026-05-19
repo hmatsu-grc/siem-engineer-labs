@@ -1,12 +1,18 @@
 # Universal Forwarders
 
-This folder contains Splunk Universal Forwarder deployment exercises and centralized log collection workflows used for forwarding endpoint logs to Splunk indexers.
+This folder contains Splunk Universal Forwarder deployment exercises, verification workflows, and Windows log forwarding configurations performed within a simulated SOC environment.
 
 Topics Covered:
 - Universal Forwarder installation
-- Windows log forwarding
-- Indexer communication
-- Port configuration
+- On-premises Splunk configuration
 - Forwarder verification
+- Connectivity testing
+- Windows Event Log forwarding
+- Indexer communication
+- Service monitoring
 - Centralized log collection
-- Endpoint log ingestion
+
+Contents:
+- forwarder-installation.md
+- forwarder-verification.md
+- windows-log-forwarding.md

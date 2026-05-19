@@ -1,10 +1,10 @@
 # Splunk Installation on Windows
 
 ## Objective
-Install Splunk Enterprise on a Windows Server 2022 virtual machine.
+Install Splunk Enterprise on a local Windows 11 system.
 
 ## Environment
-- Windows Server 2022
+- Windows 11
 - Splunk Enterprise 9.0.0.1
 
 ## Installation Steps
@@ -20,7 +20,7 @@ Install Splunk Enterprise on a Windows Server 2022 virtual machine.
 
 ## Verification
 Verified:
-- Splunk web interface accessible at:
+- Splunk web interface accessible locally:
   - https://127.0.0.1:8000
 - Splunkd Service running successfully
 - Startup type configured as Automatic

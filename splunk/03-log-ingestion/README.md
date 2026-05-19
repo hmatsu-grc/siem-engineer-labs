@@ -1,12 +1,12 @@
 # Log Ingestion
 
-This folder contains Splunk log ingestion exercises, data onboarding workflows, index configuration, and event collection processes performed within a simulated SOC environment.
+This folder contains Splunk log ingestion exercises, data onboarding workflows, index configuration, and event collection processes performed within a local SOC lab environment.
 
 Topics Covered:
 - Add Data workflows
-- Forwarded event ingestion
-- Windows Event Log collection
-- Splunk receiver configuration
+- Universal Forwarder log ingestion
+- Windows Event Log forwarding
+- Splunk receiver configuration (port 9997)
 - Index creation
 - Uploaded log ingestion
 - Event visibility verification

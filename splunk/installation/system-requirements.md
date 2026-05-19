@@ -8,8 +8,12 @@
 - Infrastructure planning requirements
 
 ## Notes
-Reviewed system, sizing, and network requirements prior to Splunk deployment. Deployment sizing depends on data ingestion volume, number of users, and search workload requirements.
+Reviewed system, sizing, and network requirements prior to Splunk deployment. Deployment sizing depends on:
+- Data ingestion volume
+- Number of users
+- Search workload requirements
+- Dashboard usage
 
 ## References
-- Splunk Sizing Tool
-- Splunk Enterprise System Requirements
+- [Splunk Sizing Calculator](https://splunk-sizing.soclib.net/)
+- [Splunk Enterprise System Requirements](https://help.splunk.com/en/splunk-enterprise/get-started/install-and-upgrade/10.4/plan-your-splunk-enterprise-installation/system-requirements-for-use-of-splunk-enterprise-on-premises)

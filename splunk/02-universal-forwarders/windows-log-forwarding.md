@@ -5,18 +5,20 @@ Configure Windows Event Log forwarding from a Windows endpoint to Splunk Enterpr
 
 ## Environment
 - Windows 10
-- Splunk Universal Forwarder 9.0.0.1
+- Splunk Universal Forwarder
 - Splunk Enterprise
+- Local single-host lab environment
 
 ---
 
 ## Forwarding Workflow
 
 1. Installed Splunk Universal Forwarder on Windows endpoint
-2. Configured receiving indexer IP address
-3. Configured receiving port 9997
-4. Enabled Windows Event Log forwarding
-5. Verified log ingestion within Splunk
+2. Configured local receiving indexer connection (127.0.0.1:9997)
+3. Enabled receiving on Splunk Enterprise port 9997
+4. Created and configured `inputs.conf` for Windows Event Logs
+5. Restarted SplunkForwarder service
+6. Verified successful log ingestion within Splunk Search & Reporting
 
 ---
 
@@ -29,28 +31,16 @@ Forwarded Windows Event Logs including:
 
 ---
 
-## Connectivity Verification
+## Universal Forwarder Configuration
 
-Verified communication between the endpoint and Splunk indexer using:
+Configured Windows Event Log collection using:
 
-```powershell
-Test-NetConnection -Computername Splunk_IP -port 9997
-```
+```ini
+[WinEventLog://Application]
+disabled = 0
 
----
+[WinEventLog://System]
+disabled = 0
 
-## Splunk Verification
-
-Verified forwarded logs appeared within:
-- Search & Reporting
-- Forwarder Management
-- Indexed event data
-
----
-
-## Notes
-
-Configured log forwarding within a lab environment using a direct indexer connection without a deployment server.
-
-## References
-- [Splunk Universal Forwarder Documentation](https://docs.splunk.com/Documentation/Forwarder)
+[WinEventLog://Security]
+disabled = 0

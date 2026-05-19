@@ -17,3 +17,4 @@ Reviewed system, sizing, and network requirements prior to Splunk deployment. De
 ## References
 - [Splunk Sizing Calculator](https://splunk-sizing.soclib.net/)
 - [Splunk Enterprise System Requirements](https://help.splunk.com/en/splunk-enterprise/get-started/install-and-upgrade/10.4/plan-your-splunk-enterprise-installation/system-requirements-for-use-of-splunk-enterprise-on-premises)
+- [Splunk Default Ports Reference](https://kinneygroup.com/blog/splunk-default-ports/)

@@ -13,6 +13,7 @@ Topics Covered:
 - Installation verification
 
 Contents:
+- README.md
 - linux-installation.md
 - network-ports.md
 - system-requirements.md

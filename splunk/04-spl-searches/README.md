@@ -1,12 +1,19 @@
 # SPL Searches
 
-This folder contains Splunk Processing Language (SPL) search exercises, event investigations, and detection-focused analysis workflows.
+This folder contains foundational Splunk Search Processing Language (SPL) exercises, search techniques, query examples, and event analysis workflows performed within a local SOC lab environment.
 
 Topics Covered:
-- SPL queries
-- Authentication investigations
-- Event correlation
+- Splunk Search & Reporting fundamentals
+- SPL query structure
 - Wildcard searches
-- Boolean operators
-- Suspicious activity analysis
-- Threat detection workflows
+- Boolean operators (`AND`, `OR`, `NOT`)
+- Time range selection
+- Timeline analysis
+- Search modes
+- Windows Event Log searching
+- Internal Splunk log searches
+- Event filtering and investigation workflows
+
+Contents:
+- spl-search-basics.md
+- basic-spl-queries.md

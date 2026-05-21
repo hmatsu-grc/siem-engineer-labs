@@ -13,6 +13,5 @@ Topics Covered:
 - Forwarder communication
 
 Contents:
-- README.md
 - add-data-from-forwarder.md
 - add-data-from-uploaded-logs.md

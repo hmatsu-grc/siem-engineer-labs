@@ -125,7 +125,6 @@ Configured forwarded Windows Event Logs to ingest into the `main` index using a 
 Verified incoming events after receiver configuration.
 
 ---
-
 ## References
 
-- https://docs.splunk.com/Documentation/Forwarder
+- https://help.splunk.com/en/splunk-enterprise/forward-and-process-data/universal-forwarder-manual

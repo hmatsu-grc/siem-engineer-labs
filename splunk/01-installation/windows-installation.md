@@ -31,4 +31,5 @@ Reviewed Splunk service status using:
 - Splunkd Service
 
 ## References
-- [Splunk Enterprise Downloads](https://www.splunk.com/)
+
+- [Splunk Enterprise Downloads](https://help.splunk.com/en/splunk-enterprise/get-started/install-and-upgrade/9.1/install-splunk-enterprise-on-windows/)

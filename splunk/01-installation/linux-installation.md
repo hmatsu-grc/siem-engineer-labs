@@ -83,4 +83,4 @@ By default, Splunk on Linux does not automatically start during system boot unti
 
 ## References
 
-- https://help.splunk.com/en/splunk-enterprise/get-started/install-and-upgrade/9.1/install-splunk-enterprise-on-linux-or-macos
+- [Install Splunk Enterprise on Linux](https://help.splunk.com/en/splunk-enterprise/get-started/install-and-upgrade/9.1/install-splunk-enterprise-on-linux-or-macos)

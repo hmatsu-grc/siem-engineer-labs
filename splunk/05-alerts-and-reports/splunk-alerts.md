@@ -107,7 +107,6 @@ Splunk alerts improve:
 Alerts help reduce the need for repetitive manual searches during investigations.
 
 ---
-
 ## References
 
-- https://help.splunk.com/en/splunk-enterprise/alert-and-respond/alerting-manual
+- [Splunk Alerting Manual](https://help.splunk.com/en/splunk-enterprise/alert-and-respond/alerting-manual)

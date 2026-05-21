@@ -127,4 +127,4 @@ Verified incoming events after receiver configuration.
 ---
 ## References
 
-- https://help.splunk.com/en/splunk-enterprise/forward-and-process-data/universal-forwarder-manual
+- [Splunk Universal Forwarder Manual](https://help.splunk.com/en/splunk-enterprise/forward-and-process-data/universal-forwarder-manual)

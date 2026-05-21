@@ -9,14 +9,12 @@
 | 8089 | Splunk management and API communication |
 
 ## Notes
+
 Reviewed common Splunk network ports used for web access, Universal Forwarder ingestion, and management communication within a local lab environment.
 
-## Splunk Network Ports Diagram
-
-![Splunk Common Network Ports](https://downloads.jordan2000.com/splunk/Splunk-Common-Network-Ports-v2.0.3.png)
+---
 
 ## References
 
-- https://help.splunk.com/en/splunk-enterprise/administer/inherit-a-splunk-deployment/9.1/inherit-a-splunk-deployment/components-and-their-relationship-with-the-network
+- [Splunk Enterprise Admin Manual](https://docs.splunk.com/Documentation/Splunk)
 - [Splunk Default Ports Reference](https://kinneygroup.com/blog/splunk-default-ports/)
-- [Splunk Common Network Ports Diagram](https://downloads.jordan2000.com/splunk/Splunk-Common-Network-Ports-v2.0.3.png)

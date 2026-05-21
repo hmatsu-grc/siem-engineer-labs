@@ -121,4 +121,4 @@ Reviewed Splunk RBAC and user management functionality within a local SOC lab en
 
 ## References
 
-- https://help.splunk.com/en/splunk-enterprise/administer/manage-users-and-security
+- [Manage Users and Security](https://help.splunk.com/en/splunk-enterprise/administer/manage-users-and-security)

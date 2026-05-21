@@ -80,3 +80,7 @@ http://blueatom-VirtualBox:8000
 ## Notes
 
 By default, Splunk on Linux does not automatically start during system boot until boot-start is enabled.
+
+## References
+
+- https://help.splunk.com/en/splunk-enterprise/get-started/install-and-upgrade/9.1/install-splunk-enterprise-on-linux-or-macos

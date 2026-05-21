@@ -13,7 +13,6 @@ Topics Covered:
 - Centralized log collection
 
 Contents:
-- README.md
 - forwarder-installation.md
 - forwarder-verification.md
 - windows-log-forwarding.md

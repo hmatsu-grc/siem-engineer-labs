@@ -72,4 +72,4 @@ Reviewed event parsing before ingestion to verify timestamps, line breaking, and
 
 ## References
 
-- https://docs.splunk.com/Documentation/Splunk/latest/Data/Uploaddata
+- [Upload Data Files](https://docs.splunk.com/Documentation/Splunk/latest/Data/Uploaddata)

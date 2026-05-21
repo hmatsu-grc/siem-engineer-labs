@@ -72,4 +72,6 @@ Reviewed event parsing before ingestion to verify timestamps, line breaking, and
 
 ## References
 
-- https://docs.splunk.com/Documentation/Splunk
+## References
+
+- https://help.splunk.com/en/splunk-enterprise/get-started/get-data-in/9.1/get-data-from-files-and-directories/upload-data-files

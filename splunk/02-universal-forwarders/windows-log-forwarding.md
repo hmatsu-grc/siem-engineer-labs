@@ -107,5 +107,4 @@ Restarted `SplunkForwarder` service after configuration changes.
 
 ## References
 
-- Splunk Universal Forwarder Documentation  
-  https://docs.splunk.com/Documentation/Forwarder
+- [Splunk Universal Forwarder Documentation](https://docs.splunk.com/Documentation/Forwarder)

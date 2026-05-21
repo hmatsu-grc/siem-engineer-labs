@@ -76,4 +76,4 @@ Reviewed built-in Splunk Enterprise health monitoring functionality within a loc
 
 ## References
 
-- [Splunk Monitoring Console Manual](https://help.splunk.com/en/splunk-enterprise/administer/monitor/monitoring-console-manual)
+- [Monitor Your Deployment with the splunkd Health Report](https://help.splunk.com/en/splunk-cloud-platform/administer/admin-manual/10.3.2512/monitor-your-splunk-cloud-platform-deployment/monitor-your-deployment-with-the-splunkd-health-report)

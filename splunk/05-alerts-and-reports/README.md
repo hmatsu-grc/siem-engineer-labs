@@ -14,5 +14,5 @@ Topics Covered:
 - Security event investigation workflows
 
 Contents:
-- README.md
 - creating-and-managing-splunk-reports.md
+- splunk-alerts.md

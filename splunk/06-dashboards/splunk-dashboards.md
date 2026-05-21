@@ -96,4 +96,4 @@ Reviewed Splunk dashboard functionality using Windows Event Log data ingested th
 
 ## References
 
-- https://help.splunk.com/en/splunk-enterprise/create-dashboards-and-reports
+- [Create Dashboards and Reports](https://help.splunk.com/en/splunk-enterprise/create-dashboards-and-reports)

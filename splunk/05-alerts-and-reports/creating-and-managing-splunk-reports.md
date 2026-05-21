@@ -141,4 +141,4 @@ Performed report creation and management exercises using locally ingested Window
 
 ## References
 
-- https://help.splunk.com/en/splunk-enterprise/create-dashboards-and-reports/reporting-manual/9.1/report-management/create-and-edit-reports
+- [Create and Edit Reports](https://help.splunk.com/en/splunk-enterprise/create-dashboards-and-reports/reporting-manual/9.1/report-management/create-and-edit-reports)

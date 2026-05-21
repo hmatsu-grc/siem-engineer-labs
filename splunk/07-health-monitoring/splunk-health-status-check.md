@@ -76,4 +76,4 @@ Reviewed built-in Splunk Enterprise health monitoring functionality within a loc
 
 ## References
 
-- https://help.splunk.com/en/splunk-enterprise/administer/monitor/monitoring-console-manual
+- [Splunk Monitoring Console Manual](https://help.splunk.com/en/splunk-enterprise/administer/monitor/monitoring-console-manual)

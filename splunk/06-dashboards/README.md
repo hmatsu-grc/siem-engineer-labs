@@ -1,11 +1,16 @@
 # Dashboards
 
-This folder contains Splunk dashboard exercises used for security visibility, SOC monitoring, and event analysis.
+This folder contains Splunk dashboard creation exercises, visualization workflows, and monitoring panel configurations performed within a local SOC lab environment.
 
 Topics Covered:
+- Dashboard creation
 - Dashboard panels
-- Event visualization
-- Authentication monitoring
-- Alert summaries
-- Security reporting
-- SOC analyst visibility
+- Security monitoring visualizations
+- Search & Reporting dashboards
+- Reusable analyst workflows
+- Event visibility dashboards
+- Dashboard customization
+- SPL-based dashboard panels
+
+Contents:
+- splunk-dashboards.md

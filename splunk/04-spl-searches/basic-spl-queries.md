@@ -132,4 +132,4 @@ Performed SPL query exercises using locally ingested Windows Event Log data coll
 
 ## References
 
-- https://help.splunk.com/en/splunk-enterprise/search/search-manual/9.1/search-overview/about-the-search-language
+- [Splunk Search Language Overview](https://help.splunk.com/en/splunk-enterprise/search/search-manual/9.1/search-overview/about-the-search-language)

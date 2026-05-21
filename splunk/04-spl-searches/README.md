@@ -15,6 +15,5 @@ Topics Covered:
 - Event filtering and investigation workflows
 
 Contents:
-- README.md
 - spl-search-basics.md
 - basic-spl-queries.md

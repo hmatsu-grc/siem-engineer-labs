@@ -145,7 +145,6 @@ Reviewed Splunk Search History functionality for recalling previously executed s
 Performed foundational Splunk search exercises using Windows Event Log data ingested through a local Universal Forwarder configuration.
 
 ---
-
 ## References
 
-- https://docs.splunk.com/Documentation/Splunk
+- https://help.splunk.com/en/splunk-enterprise/search/search-manual

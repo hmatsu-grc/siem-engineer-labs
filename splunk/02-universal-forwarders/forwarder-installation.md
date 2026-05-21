@@ -47,7 +47,7 @@ Verified:
 ### Verify Installer MD5
 
 ```powershell
-Get-FileHash .\splunkforwarder-9.0.0.1-9e907cedecb1-x64-release.msi -Algorithm md5
+Get-FileHash .\splunkforwarder-9.0.0.1-9e907cedecb1-x64-release.msi -Algorithm MD5
 ```
 
 ### Verify Active Forwarding Connection

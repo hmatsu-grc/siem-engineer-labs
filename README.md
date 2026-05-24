@@ -13,9 +13,3 @@ Topics Covered:
 
 Tools & Platforms:
 - Splunk
-- Wazuh
-- IBM QRadar
-- TheHive
-- Sigma
-
-These projects are based on structured cybersecurity training, simulated SOC environments, and independent hands-on learning.
